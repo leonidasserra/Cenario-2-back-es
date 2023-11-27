@@ -32,6 +32,6 @@ app.get("/user/:nome", async (req, res) => {
 });
 
 // Inicie o servidor na porta especificada
-app.listen(port, () => {
+//app.listen(port, () => {
   console.log(`Servidor Express rodando na porta ${port}`);
 });
